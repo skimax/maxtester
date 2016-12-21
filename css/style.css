@@ -1,0 +1,195 @@
+
+body {
+     background-color:#ddd;
+     font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.container-fluid {
+    background-color:silver;
+    border-bottom:1px solid #F0DDDD; 
+    position:absolute;
+    left:0;
+    right:0;
+    
+}
+
+
+.logo {
+    margin:-2px 22px;
+ } 
+
+
+ .navbar-nav {
+   float: right;
+   margin:11px;
+
+ }
+
+
+nav li {
+
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: -webkit-linear-gradient(top, #76cedc 0%, #36c7ba 100%); 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding:10px;
+    border-radius: 4px; 
+    margin:3px 120px 0px -120px;
+    width:86px;
+    list-style: none;
+    border: 1px solid #0f7788;
+    display: inline-block;
+    float:center;
+    color:white;
+}
+
+
+
+ .img1 {
+    background-image: url(..//img/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    width: 78%;
+    border: 3px solid white;
+    margin: 5% 0% 2% 9%;
+ }
+
+
+  .img2 {
+    background-image: url(..//img/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 28rem;
+    width: 78%;
+    border: 3px solid white;
+    margin: 5% 0% 2% 9%;
+    display: none;
+  }
+
+
+  .img3 {
+    background-image: url(..//img/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 28rem;
+    width: 78%;
+    border: 3px solid white;
+    margin: 5% 0% 2% 9%;
+    display: none;
+ }
+
+
+ .contain {
+    margin:0px auto;
+    width:82%;
+    clear:both;
+ }
+
+
+.border {
+   border:2px solid white;
+}
+
+
+.cara {
+    width:88%;
+    background-color: #c1bcbc;
+    height: 40rem;
+    padding: 5% 7%;
+    float:right;
+    margin:0px 47px;
+}
+
+
+
+.wrap {
+   position: absolute;
+   top:-20rem;
+   width:30rem;
+   margin-left:2px;
+
+
+}
+
+ h5 {
+    font-size:20px;
+    font-weight: 200
+}
+ 
+.foot {
+   position: absolute;
+   top:66rem;
+   width:30rem;
+   margin-left:45rem
+}
+
+.footer {
+    background-color:silver; 
+    position:absolute;
+    left:0;
+    right:0;
+    padding:20px;
+}
+
+
+ .navigation li {
+    display: inline-block;
+    float:right;
+    color:white;
+    margin:2px 120px 0px -120px;
+    width:50px;
+}
+
+
+
+.copy {
+    margin-bottom: -16px;
+    list-style: none;
+}
+
+@media only screen and ( min-width: 400px) and (max-width: 800px){
+    .wrapper {
+        margin-bottom: 65rem;
+        margin-left:20px;
+
+    }
+
+
+
+.cara {
+    
+    margin-right:20px;
+}
+
+
+   .foot {
+    margin-left:30px;
+    margin-top:80rem;
+
+   }
+
+
+.navigation li {
+    display: inline-block;
+    margin:0px 15px 0px -20px;
+}
+
+
+}
+
+
+@media only screen and ( min-width: 200px) and (max-width: 450px){
+
+.copy {
+    display: none;
+    
+
+}
+
+
+
+
+
